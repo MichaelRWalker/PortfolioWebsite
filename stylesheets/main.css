@@ -1,0 +1,36 @@
+@import "Styling.css";
+@import "layout.css";
+/* For Full Screen*/
+@import url('./layout.css') only screen and (min-width: 901px);
+@import url('./mobileLayout.css') only screen and (max-width: 900px);
+
+.darker{
+     background-color:#26272F;
+     color:#E5E5E5;
+ }
+.dark{
+    background-color:rgba(63, 57, 57, 0.76);
+    color:#E5E5E5;
+}
+.fit{
+    width:fit-content;
+    height:fit-content;
+    align-self: center;
+}
+.rounded{
+    border-radius:5px ;
+}
+
+.light{
+    background-color: #ffffff;
+    color:black;
+}
+.mr{
+    padding-right: 35px;
+}
+
+.col2{
+    column-count: 2;
+}
+
+

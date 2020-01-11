@@ -1,0 +1,50 @@
+.git{
+    font-weight: bold;
+}
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    overflow: hidden;
+    font-family: "Red Hat Text","Open Sans",serif;
+    font-weight: lighter;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+main{
+    background-image: linear-gradient(rgba(63, 57, 57, 0.76),rgba(63, 57, 57, 0.76)),
+    url('../images/grayscale-photo-of-computer-laptop-near-white-notebook-and-169573.jpg');
+    background-size: 100% 100%;
+}
+header{
+    color:#DDCBCB;
+    background-color:#26272F;
+    padding:1px 1px 1px 1px;
+    font-size: 36px;
+    font-weight: normal;
+}
+h1{
+    padding: 0;
+    margin: 3px;
+}
+h2{
+    margin: 5px 5px;
+    font-size: 30px;
+    font-weight: normal;
+}
+.he2{
+    margin: 40px 10px;
+}
+li{
+    font-size: 24px;
+    text-align: left;
+    padding:2px;
+    list-style-type: none;
+}
+.git{
+    margin-top: 20px;
+    font-size: 20px;
+    padding:2px;
+}
