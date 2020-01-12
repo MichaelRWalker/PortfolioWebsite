@@ -25,5 +25,7 @@ header>nav>ul{
 .container > i {
     justify-items: end;
 }
-
+.col2{
+    column-count: 2;
+}
 

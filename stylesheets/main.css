@@ -2,8 +2,14 @@
 @import "layout.css";
 /* For Full Screen*/
 @import url('./layout.css') only screen and (min-width: 901px);
-@import url('./mobileLayout.css') only screen and (max-width: 900px);
+@import url('./mobileLayout.css') only screen and (max-width: 900px) and (min-width: 656px);
+@import url('./ultraSmallLayout.css') only screen and (max-width: 655px);
 
+
+.darkest{
+    background-color:rgb(0, 0, 0);
+    color:#E5E5E5;
+}
 .darker{
      background-color:#26272F;
      color:#E5E5E5;
@@ -29,8 +35,10 @@
     padding-right: 35px;
 }
 
-.col2{
-    column-count: 2;
+.lit{
+    color:white;
 }
-
+.dim{
+    color:rgb(129, 129, 129);
+}
 

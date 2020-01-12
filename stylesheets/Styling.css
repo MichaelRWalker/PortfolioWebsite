@@ -5,7 +5,6 @@ body{
     margin: 0;
     padding: 0;
     text-align: center;
-    overflow: hidden;
     font-family: "Red Hat Text","Open Sans",serif;
     font-weight: lighter;
     display: flex;
@@ -17,6 +16,7 @@ main{
     background-image: linear-gradient(rgba(63, 57, 57, 0.76),rgba(63, 57, 57, 0.76)),
     url('../images/grayscale-photo-of-computer-laptop-near-white-notebook-and-169573.jpg');
     background-size: 100% 100%;
+    background-attachment: fixed;
 }
 header{
     color:#DDCBCB;
@@ -48,3 +48,70 @@ li{
     font-size: 20px;
     padding:2px;
 }
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.about{
+    background-image: linear-gradient(rgba(63, 57, 57, 0.76),rgba(63, 57, 57, 0.76)),
+    url('../images/apple-devices-computer-contemporary-dark-234527.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+.hobbies{
+    background-image: linear-gradient(rgba(63, 57, 57, 0.76),rgba(63, 57, 57, 0.76)),
+    url('../images/apple-laptop-macbook-pro-notebook-1784.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+.contact{
+    background-image: linear-gradient(rgba(63, 57, 57, 0.76),rgba(63, 57, 57, 0.76)),
+    url('../images/grayscale-photo-of-computer-laptop-near-white-notebook-and-169573.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+
+}
+.projects{
+    background-image: linear-gradient(rgba(63, 57, 57, 0.76),rgba(63, 57, 57, 0.76)),
+    url('../images/lines-of-code-2653362.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+
+}
+header.small{
+    justify-content: space-evenly;
+}
+p{
+    font-family: "Anonymous Pro";
+    font-size:24px;
+    line-height: 220%;
+    padding:30px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+
+.red{
+    color:#EA1717
+}
+.green{
+    color:#59B27D
+}
+.yellow{color:#D0D340}
+.blue{color:#417BD2}
+.purple{color:rgb(145, 42, 209)}
+
+figure{
+    text-align: left;
+    padding:10px;
+}
+code{
+    text-shadow: rgb(58, 206, 58) 12;
+}
+
+.file{
+    padding:0px 30px;
+    margin-top: 50px;
+}
+
+
