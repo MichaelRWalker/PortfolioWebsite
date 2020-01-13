@@ -11,8 +11,11 @@ main{
     display:flex;
     flex: 1;
 }
+.he2{
+    margin: 40px 10px;
+    font-size: 36px;
+}
  
-
 header{
     display: flex;
     flex-flow: row;
@@ -31,4 +34,14 @@ header>nav>ul{
 .col2{
     column-count: 2;
 }
-
+li{
+    font-size: 48px;
+    text-align: left;
+    padding:2px;
+    list-style-type: none;
+}
+.git{
+    margin-top: 20px;
+    font-size: 30px;
+    padding:2px;
+}

@@ -31,7 +31,6 @@ h1{
 }
 h2{
     margin: 5px 5px;
-    font-size: 30px;
     font-weight: normal;
 }
 .he2{
@@ -91,15 +90,6 @@ p{
 }
 
 
-.red{
-    color:#EA1717
-}
-.green{
-    color:#59B27D
-}
-.yellow{color:#D0D340}
-.blue{color:#417BD2}
-.purple{color:rgb(145, 42, 209)}
 
 figure{
     text-align: left;
