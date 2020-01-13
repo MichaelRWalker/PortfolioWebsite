@@ -13,6 +13,7 @@ main{
 header{
     display: flex;
     flex-flow: column;
+    position: sticky;
     height:auto;
     min-height: 20vh;
     align-items: center;

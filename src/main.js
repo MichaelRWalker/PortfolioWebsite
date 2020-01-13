@@ -17,3 +17,8 @@ projects_code.innerHTML = `
     })}
 }
 `
+
+const header = document.getElementById('header');
+window.addEventListener('scroll',()=>{
+    window.scrollY > 20 ? header.className='small':header.className=''
+})
