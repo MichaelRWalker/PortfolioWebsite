@@ -1,10 +1,10 @@
 @import "Styling.css";
 @import "layout.css";
-/* For Full Screen*/
-@import url('./layout.css') only screen and (min-width: 901px);
+
+@import url('./largelayout.css') only screen and (min-width: 1600px);
+@import url('./layout.css') only screen and (max-width: 901px);
 @import url('./mobileLayout.css') only screen and (max-width: 900px) and (min-width: 656px);
 @import url('./ultraSmallLayout.css') only screen and (max-width: 655px);
-
 
 .darkest{
     background-color:rgb(0, 0, 0);
@@ -13,6 +13,7 @@
 .darker{
      background-color:#26272F;
      color:#E5E5E5;
+     padding:0px 5px 0px 5px; 
  }
 .dark{
     background-color:rgba(63, 57, 57, 0.76);
@@ -31,14 +32,11 @@
     background-color: #ffffff;
     color:black;
 }
-.mr{
-    padding-right: 35px;
-}
-
-.lit{
-    color:white;
-}
-.dim{
-    color:rgb(129, 129, 129);
-}
-
+.mr{padding-right: 35px;}
+.lit{color:white;}
+.dim{color:rgb(129, 129, 129);}
+.red{color:#EA1717}
+.green{color:#59B27D}
+.yellow{color:#D0D340}
+.blue{color:#417BD2}
+.purple{color:rgb(145, 42, 209)}

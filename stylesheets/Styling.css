@@ -24,6 +24,9 @@ header{
     padding:1px 1px 1px 1px;
     font-size: 36px;
     font-weight: normal;
+    position: fixed;
+    width: 100vw;
+    min-height:10vh;
 }
 h1{
     padding: 0;
@@ -31,11 +34,10 @@ h1{
 }
 h2{
     margin: 5px 5px;
-    font-size: 30px;
     font-weight: normal;
 }
 .he2{
-    margin: 40px 10px;
+    margin: 160px 10px 10px 10px;
 }
 li{
     font-size: 24px;
@@ -80,6 +82,13 @@ a{
 }
 header.small{
     justify-content: space-evenly;
+    color:#DDCBCB;
+    background-color:#26272F;
+    font-size: 24px;
+    font-weight: normal;
+    position: fixed;
+    width: 100vw;
+
 }
 p{
     font-family: "Anonymous Pro";
@@ -91,15 +100,6 @@ p{
 }
 
 
-.red{
-    color:#EA1717
-}
-.green{
-    color:#59B27D
-}
-.yellow{color:#D0D340}
-.blue{color:#417BD2}
-.purple{color:rgb(145, 42, 209)}
 
 figure{
     text-align: left;
